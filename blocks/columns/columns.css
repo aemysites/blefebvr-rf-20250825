@@ -49,7 +49,6 @@
   padding: 0;
 }
 
-/* Red circle accent on left */
 .columns > div::before {
   position: absolute;
   left: -60px;
@@ -62,14 +61,9 @@
   opacity: 1;
   pointer-events: none;
   display: block;
-
-  /* Use empty content so the pseudo is rendered */
   content: "";
 }
 
-/* Main flex layout: horizontal, vertically centered */
-
-/* --- LEFT: Logo and tagline side by side, both vertically aligned center --- */
 .columns > div > div:first-child {
   display: flex;
   flex-direction: row;
@@ -79,7 +73,6 @@
   z-index: 1;
 }
 
-/* Logo image sizing */
 .columns > div > div:first-child picture,
 .columns > div > div:first-child img {
   height: 38px;
@@ -90,7 +83,6 @@
   vertical-align: middle;
 }
 
-/* Tagline styling */
 .columns > div > div:first-child p {
   color: #fff;
   font-size: 16px;
@@ -102,7 +94,6 @@
   vertical-align: middle;
 }
 
-/* --- RIGHT: Visually merge both button columns into a single horizontal flex row --- */
 .columns > div > div:nth-child(2),
 .columns > div > div:nth-child(3) {
   display: flex;
@@ -114,7 +105,6 @@
   min-width: 0;
 }
 
-/* Merge both columns without visible gap */
 .columns > div > div:nth-child(2) {
   margin-right: -9px;
 }
@@ -123,7 +113,6 @@
   margin-left: -9px;
 }
 
-/* Button styling: pill shape, white, blue text, tight spacing */
 .columns .button-container .button,
 .columns .button-container a.button,
 .columns > div > div a.button {
@@ -155,7 +144,6 @@
   display: inline;
 }
 
-/* Ensure all text is white except buttons */
 .columns,
 .columns p,
 .columns span,
@@ -163,12 +151,10 @@
   color: #fff;
 }
 
-/* Hide empty columns if present (optional) */
 .columns > div > div:empty {
   display: none;
 }
 
-/* Responsive: stack content, wrap buttons to new row */
 @media (width <= 900px) {
   .columns > div {
     flex-direction: column;
@@ -194,3 +180,184 @@
     margin-right: 0;
   }
 }
+
+
+.columns.columns5 {
+  background: #fff;
+  position: relative;
+  padding: 0;
+  overflow: visible;
+  min-height: 180px;
+  margin-bottom: 0;
+}
+
+/* Remove old red accent (if present) */
+.columns.columns5::before {
+  display: none;
+}
+
+/* Correct blue accent in top-right */
+.columns.columns5::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 120px;
+  height: 120px;
+  background: #001AFF;
+  border-bottom-left-radius: 120px;
+  z-index: 1;
+  pointer-events: none;
+  display: block;
+}
+
+/* Main flex layout: left (logo/tagline) and right (links) */
+.columns.columns5 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7vw;
+  padding: 2.8rem 2rem 2.8rem 4rem;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 220px;
+}
+
+/* Responsive stacking for mobile */
+@media (width <= 900px) {
+  .columns.columns5 > div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.2rem;
+    padding: 2rem 1rem;
+    min-height: unset;
+  }
+}
+
+/* Left: force logo/tagline grouping and vertical centering */
+.columns.columns5 > div > div:first-child {
+  flex: 0 0 320px;
+  min-width: 220px;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem; /* much tighter gap */
+  padding: 0;
+  height: 100%;
+
+  /* Center group vertically with navigation columns */
+  align-self: center;
+}
+
+/* Logo above tagline: ensure picture appears first and not too far from tagline */
+.columns.columns5 picture {
+  display: block;
+  order: -1; /* appear above any p/text */
+  margin-bottom: 0.3rem;
+}
+
+.columns.columns5 picture img {
+  width: 180px;
+  height: auto;
+  display: block;
+}
+
+/* Tagline text, closer to logo and more visually secondary */
+.columns.columns5 > div > div:first-child > p {
+  margin: 0;
+  color: #222;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: var(--body-font-family);
+  padding: 0;
+}
+
+/* NAVIGATION AREA: side-by-side columns, vertical stack inside each */
+.columns.columns5 > div > div:nth-child(2),
+.columns.columns5 > div > div:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.3rem;
+  min-width: 180px;
+  flex: 0 1 220px;
+  padding: 0;
+  justify-content: center;
+  margin: 0;
+}
+
+/* Responsive: link columns stack full width */
+@media (width <= 900px) {
+  .columns.columns5 > div > div:nth-child(2),
+  .columns.columns5 > div > div:nth-child(3) {
+    min-width: 0;
+    width: 100%;
+    gap: 1rem;
+  }
+}
+
+/* Navigation links: underline, blue, no button look, left-aligned */
+.columns.columns5 .button-container {
+  margin: 0;
+  padding: 0;
+}
+
+.columns.columns5 .button-container .button,
+.columns.columns5 .button-container a.button {
+  background: none;
+  color: #23239F;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  padding: 0 0 4px;
+  margin: 0;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #23239F;
+  line-height: 1.45;
+  transition: border-color 0.2s, color 0.2s;
+  position: relative;
+  min-width: 0;
+  text-align: left;
+}
+
+.columns.columns5 .button-container .button:hover,
+.columns.columns5 .button-container a.button:hover {
+  border-bottom-color: #001AFF;
+  color: #001AFF;
+}
+
+/* Add extra right padding for external icon look on Intelligence Fund */
+.columns.columns5 .button-container .button[title="Intelligence Fund"],
+.columns.columns5 .button-container a.button[title="Intelligence Fund"] {
+  padding-right: 1.3em;
+}
+
+/* Remove margin between nav columns */
+
+/* Responsive accent size */
+@media (width <= 600px) {
+  .columns.columns5 > div {
+    padding: 1.2rem 0.5rem;
+    gap: 1.1rem;
+  }
+
+  .columns.columns5::after {
+    width: 64px;
+    height: 64px;
+    border-bottom-left-radius: 64px;
+  }
+
+  .columns.columns5 > div > div:first-child {
+    align-items: flex-start;
+    text-align: left;
+    gap: 0.4rem;
+  }
+}
+
+/* Remove margin below block */
