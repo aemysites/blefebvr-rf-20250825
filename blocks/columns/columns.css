@@ -1,19 +1,19 @@
 /* stylelint-disable no-descending-specificity */
 .columns > div {
-  display: grid;
+  display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   position: relative;
   z-index: 1;
   width: 100%;
-  padding: 42px 0 32px;
+  padding: 48px 0 40px;
   min-height: 200px;
   box-sizing: border-box;
   grid-template-columns: minmax(260px, 340px) minmax(180px, 1fr) minmax(180px, 1fr);
-  gap: 0 56px;
+  gap: 38px;
   margin: 0 auto;
-  max-width: 1100px;
-  /* Removed "place-items: stretch;" to avoid shorthand override conflict */
+  max-width: 980px;
+  flex-direction: row;
 }
 
 .columns img {
@@ -49,7 +49,7 @@
 .columns {
   background: #fff;
   position: relative;
-  min-height: 64px;
+  min-height: 220px;
   padding: 0;
 }
 
@@ -70,32 +70,39 @@
 
 .columns > div > div:first-child {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  gap: 18px;
-  min-width: 0;
+  gap: 10px;
+  min-width: 240px;
   z-index: 1;
+  justify-content: center;
+  max-width: 300px;
+  text-align: center;
+  height: 140px;
 }
 
 .columns > div > div:first-child picture,
 .columns > div > div:first-child img {
-  height: 38px;
+  height: auto;
   max-height: 38px;
-  width: auto;
-  margin: 0;
-  display: inline-block;
+  width: 100%;
+  margin: 0 auto 6px;
+  display: block;
   vertical-align: middle;
+  max-width: 150px;
 }
 
 .columns > div > div:first-child p {
-  color: #fff;
-  font-size: 16px;
+  color: #1414a0;
+  font-size: 14px;
   font-weight: 600;
-  line-height: 1.4;
+  line-height: 1.6;
   margin: 0;
-  font-family: var(--body-font-family);
+  font-family: Inter, Arial, sans-serif;
   white-space: pre-line;
   vertical-align: middle;
+  padding: 0;
+  text-align: center;
 }
 
 .columns > div > div:nth-child(2),
@@ -103,14 +110,16 @@
   display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
-  gap: 19px;
+  gap: 0;
   margin: 0;
   padding: 0;
-  min-width: 140px;
+  min-width: 150px;
   flex-direction: column;
   justify-content: center;
   width: 100%;
   place-self: center start;
+  max-width: 190px;
+  flex: 0 1 180px;
 }
 
 .columns > div > div:nth-child(2) {
@@ -151,6 +160,7 @@
   margin: 0;
   display: block;
   padding: 0;
+  width: 100%;
 }
 
 .columns,
@@ -353,20 +363,19 @@
   }
 }
 
-/* Remove any left-side accent if present */
-
-/* Blue quarter-circle accent in top-right only */
 .columns > div::after {
   content: "";
   position: absolute;
   top: 0;
   right: 0;
-  width: 240px;
-  height: 240px;
-  background: #2A2EFF;
-  border-bottom-left-radius: 240px;
+  width: 72px;
+  height: 72px;
+  background: #00F;
+  border-bottom-left-radius: 72px;
   z-index: 0;
   pointer-events: none;
+  margin: 0;
+  display: block;
 }
 
 @media (width <= 900px) {
@@ -377,9 +386,6 @@
   }
 }
 
-/* ------- Main Layout: Use Grid ------- */
-
-/* Responsiveness for mobile */
 @media (width <= 900px) {
   .columns > div {
     grid-template-columns: 1fr;
@@ -390,7 +396,6 @@
   }
 }
 
-/* ---- Left Block: Tagline & Logo ---- */
 .columns > div > div:nth-child(1) {
   display: flex;
   flex-direction: column-reverse;
@@ -400,7 +405,7 @@
   min-width: 200px;
   width: 100%;
   place-self: center stretch;
-  padding-left: 64px; /* Increased for better match */
+  padding-left: 64px;
 }
 
 @media (width <= 900px) {
@@ -410,7 +415,6 @@
   }
 }
 
-/* Tagline styles */
 .columns > div > div:nth-child(1) p {
   margin: 0;
   color: #181C61;
@@ -421,7 +425,6 @@
   letter-spacing: -.01em;
 }
 
-/* Logo styles */
 .columns > div > div:nth-child(1) picture,
 .columns > div > div:nth-child(1) img {
   display: block;
@@ -432,8 +435,6 @@
   margin-bottom: 0;
 }
 
-/* --- Navigation columns: vertical, left-aligned, centered vertically --- */
-
 @media (width <= 900px) {
   .columns > div > div:nth-child(2),
   .columns > div > div:nth-child(3) {
@@ -443,36 +444,34 @@
   }
 }
 
-/* --- Link Styles --- */
-
 .columns .button-container a.button {
-  color: #2A2EFF;
+  color: #1414a0;
   background: transparent;
   border: none;
   border-radius: 0;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
-  padding: 0 0 5px;
+  padding: 8px 0;
   margin: 0;
   min-width: 0;
   box-shadow: none;
   text-align: left;
   text-decoration: none;
-  border-bottom: 1px solid #2A2EFF;
+  border-bottom: 1px solid #1414a0;
   display: inline-block;
-  line-height: 1.3;
+  line-height: 1.5;
   transition: color 0.2s, border-color 0.2s;
   outline: none;
+  width: 100%;
 }
 
 .columns .button-container a.button:hover,
 .columns .button-container a.button:focus {
-  color: #181C61;
-  border-bottom: 1px solid #181C61;
+  color: #00F;
+  border-bottom: 1px solid #00F;
   background: transparent;
 }
 
-/* External link icon for "Intelligence Fund" */
 .columns .button-container a.button[href*="theintelligencefund"] {
   padding-right: 19px;
   position: relative;
@@ -491,7 +490,6 @@
   content: "";
 }
 
-/* Responsive: shrink blue accent */
 @media (width <= 700px) {
   .columns > div::after {
     width: 60px;
@@ -499,3 +497,59 @@
     border-bottom-left-radius: 60px;
   }
 }
+
+/* Main columns layout: side-by-side, vertically centered */
+
+/* Blue quarter-circle accent, flush to top right */
+
+@media (width <= 900px) {
+  .columns > div {
+    flex-direction: column;
+    gap: 32px 0;
+    padding: 28px 0 18px;
+    max-width: 98vw;
+  }
+
+  .columns > div::after {
+    width: 48px;
+    height: 48px;
+    border-bottom-left-radius: 48px;
+  }
+}
+
+/* Left: logo/tagline vertical stack, centered in column */
+
+@media (width <= 900px) {
+  .columns > div > div:first-child {
+    min-width: 0;
+    max-width: unset;
+    height: auto;
+    flex: 1 1 100%;
+  }
+}
+
+/* Tagline styles: always centered */
+
+/* Logo above tagline (if present) */
+
+/* Navigation columns: vertical, closer together */
+
+@media (width <= 900px) {
+  .columns > div > div:nth-child(2),
+  .columns > div > div:nth-child(3) {
+    min-width: 0;
+    max-width: unset;
+    width: 100%;
+    flex: 1 1 100%;
+  }
+}
+
+/* Navigation link styles */
+
+.columns .button-container:last-child a.button {
+  border-bottom: 1px solid #1414a0;
+}
+
+/* Support for icon placement (if present in HTML) */
+
+/* Hide empty columns if any */
