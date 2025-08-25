@@ -1,0 +1,42 @@
+{
+  "templates": [
+    {
+      "name": "'Video Content Hub'",
+      "cluster": 1,
+      "pages": [
+        {
+          "url": "https://www.recordedfuture.com/case-study/merck-kgaa-darmstadt-germany",
+          "uuid": "168c17aa5c0bf0a8c5e3b682c4f7947b041cad92"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/novavax",
+          "uuid": "ac8af003b8077b3fd07b28614e011fe18bd066ec"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/tbi-bank",
+          "uuid": "fd3f173934662c995b9b4b19085840ea4855c558"
+        }
+      ]
+    },
+    {
+      "name": "'Dashboard'",
+      "cluster": 2,
+      "pages": [
+        {
+          "url": "https://www.recordedfuture.com/blog/toolshell-exploit-chain-thousands-sharepoint-servers-risk",
+          "uuid": "f74369e8b5e7026518dbd58a27a18d1f6b9987dc"
+        }
+      ]
+    },
+    {
+      "name": "Sidebar Layout Page",
+      "cluster": 3,
+      "pages": [
+        {
+          "url": "https://www.recordedfuture.com/blog/the-retaliation-window",
+          "uuid": "3652c5891f633a3782712ce0b52ae987252c710b"
+        }
+      ]
+    }
+  ]
+}
