@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
@@ -43,5 +44,203 @@
 @media (width >= 900px) {
   .hero {
     padding: 40px 32px;
+  }
+}
+
+.hero.hero8 {
+  background: #0A01F9;
+  min-height: 56px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Top-level: side by side */
+.hero.hero8 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+  height: 56px;
+  gap: 0;
+}
+
+/* Decorative circles on the left */
+.hero.hero8 > div:first-child {
+  position: relative;
+  width: 50px; /* Even narrower for minimal left gap */
+  min-width: 40px;
+  max-width: 60px;
+  height: 56px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hero.hero8 > div:first-child > div {
+  width: 100%;
+  height: 100%;
+  background:
+    radial-gradient(circle 54px at 32px 38px, #B90009 70%, transparent 71%),
+    radial-gradient(circle 104px at -28px 18px, #FF1E1E 70%, transparent 71%);
+  z-index: 0;
+}
+
+/* Content block on the right */
+.hero.hero8 > div:nth-child(2) {
+  flex: 1 1 0%;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 0;
+}
+
+.hero.hero8 > div:nth-child(2) > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px; /* Even tighter gap for compact look */
+  width: 100%;
+  min-width: 0;
+  height: 100%;
+}
+
+/* Remove default p tag margin for tighter alignment */
+.hero.hero8 > div:nth-child(2) > div > p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Main CTA text, left aligned and bold */
+.hero.hero8 > div:nth-child(2) > div > p:first-child {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.15;
+  flex-shrink: 0;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  min-width: 240px;
+  text-align: left;
+  padding-left: 0;
+}
+
+/* Hide asterisk */
+.hero.hero8 > div:nth-child(2) > div > p:nth-child(2) {
+  display: none;
+}
+
+/* Email "input" styling */
+.hero.hero8 > div:nth-child(2) > div > p:nth-child(3) {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  min-width: 0;
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Only style the <a> as input, hide hint text */
+.hero.hero8 > div:nth-child(2) > div > p:nth-child(3) > a {
+  display: inline-block;
+  background: #fff;
+  color: #A9A9A9;
+  border-radius: 999px;
+  font-size: 13px;
+  padding: 6px 14px;
+  border: none;
+  outline: none;
+  width: 170px;
+  box-sizing: border-box;
+  text-align: left;
+  font-weight: 500;
+  line-height: 1.12;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+
+.hero.hero8 > div:nth-child(2) > div > p:nth-child(3) > a:focus,
+.hero.hero8 > div:nth-child(2) > div > p:nth-child(3) > a:hover {
+  background: #f1f1ff;
+}
+
+/* Hide the hint "Please use your work email." if present */
+
+/* Button styling, minimal gap to input */
+.hero.hero8 > div:nth-child(2) > div > p:nth-child(4) {
+  margin: 0;
+  margin-left: 0;
+  display: inline-block;
+  background: #fff;
+  color: #0A01F9;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgb(10 1 249 / 9%);
+  cursor: pointer;
+  min-width: 100px;
+  text-align: center;
+  transition: box-shadow 0.18s;
+  outline: 0;
+  border: none;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.hero.hero8 > div:nth-child(2) > div > p:nth-child(4):hover {
+  box-shadow: 0 4px 18px rgb(10 1 249 / 18%);
+}
+
+/* Responsive: Stack vertically & reduce left accent */
+@media (width <= 600px) {
+  .hero.hero8 {
+    min-height: 110px;
+    padding: 10px 4px;
+    height: auto;
+  }
+
+  .hero.hero8 > div {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .hero.hero8 > div:first-child {
+    width: 32px;
+    min-width: 28px;
+    height: 32px;
+    margin-bottom: 0;
+  }
+
+  .hero.hero8 > div:nth-child(2) {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .hero.hero8 > div:nth-child(2) > div {
+    flex-direction: column;
+    gap: 8px;
+    align-items: stretch;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero.hero8 > div:nth-child(2) > div > p:first-child,
+  .hero.hero8 > div:nth-child(2) > div > p:nth-child(4) {
+    text-align: left;
+    min-width: unset;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
   }
 }
