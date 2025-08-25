@@ -1,6 +1,15 @@
+/* stylelint-disable no-descending-specificity */
 .columns > div {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: 0 32px;
+  min-height: 64px;
+  box-sizing: border-box;
 }
 
 .columns img {
@@ -29,5 +38,159 @@
   .columns > div > div {
     flex: 1;
     order: unset;
+  }
+}
+
+
+.columns {
+  background: #0009ff;
+  position: relative;
+  min-height: 64px;
+  padding: 0;
+}
+
+/* Red circle accent on left */
+.columns > div::before {
+  position: absolute;
+  left: -60px;
+  top: -48px;
+  width: 136px;
+  height: 136px;
+  background: #f3001b;
+  border-radius: 50%;
+  z-index: 0;
+  opacity: 1;
+  pointer-events: none;
+  display: block;
+
+  /* Use empty content so the pseudo is rendered */
+  content: "";
+}
+
+/* Main flex layout: horizontal, vertically centered */
+
+/* --- LEFT: Logo and tagline side by side, both vertically aligned center --- */
+.columns > div > div:first-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
+  min-width: 0;
+  z-index: 1;
+}
+
+/* Logo image sizing */
+.columns > div > div:first-child picture,
+.columns > div > div:first-child img {
+  height: 38px;
+  max-height: 38px;
+  width: auto;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Tagline styling */
+.columns > div > div:first-child p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0;
+  font-family: var(--body-font-family);
+  white-space: pre-line;
+  vertical-align: middle;
+}
+
+/* --- RIGHT: Visually merge both button columns into a single horizontal flex row --- */
+.columns > div > div:nth-child(2),
+.columns > div > div:nth-child(3) {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+/* Merge both columns without visible gap */
+.columns > div > div:nth-child(2) {
+  margin-right: -9px;
+}
+
+.columns > div > div:nth-child(3) {
+  margin-left: -9px;
+}
+
+/* Button styling: pill shape, white, blue text, tight spacing */
+.columns .button-container .button,
+.columns .button-container a.button,
+.columns > div > div a.button {
+  background: #fff;
+  color: #0009ff;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 24px;
+  box-shadow: none;
+  border: none;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 0;
+  transition: background 0.2s, color 0.2s;
+}
+
+.columns .button-container .button:hover,
+.columns .button-container a.button:hover,
+.columns > div > div a.button:hover {
+  background: #f0f4ff;
+  color: #0009ff;
+  text-decoration: underline;
+}
+
+.columns .button-container {
+  margin: 0;
+  display: inline;
+}
+
+/* Ensure all text is white except buttons */
+.columns,
+.columns p,
+.columns span,
+.columns a:not(.button) {
+  color: #fff;
+}
+
+/* Hide empty columns if present (optional) */
+.columns > div > div:empty {
+  display: none;
+}
+
+/* Responsive: stack content, wrap buttons to new row */
+@media (width <= 900px) {
+  .columns > div {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .columns > div > div:first-child {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    gap: 10px;
+    min-width: 0;
+  }
+
+  .columns > div > div:nth-child(2),
+  .columns > div > div:nth-child(3) {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
