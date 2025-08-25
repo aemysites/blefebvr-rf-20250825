@@ -3,25 +3,148 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
+  grid-template-columns: repeat(3, minmax(320px, 1fr));
   grid-gap: 24px;
+  gap: 32px;
+  place-items: start center;
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+  border: none;
+  background: #fff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-width: 0;
+  overflow: hidden;
+  margin: 0;
 }
 
 .cards .cards-card-body {
-  margin: 16px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 16px 24px 20px;
+  flex: 1 1 auto;
+  box-sizing: border-box;
 }
 
 .cards .cards-card-image {
   line-height: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background: none;
 }
 
 .cards > ul > li img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+
+.cards {
+  background: #f8f8f8;
+  padding: 48px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Center and constrain the block */
+.cards.block {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Grid layout for cards */
+
+/* Card styles */
+
+/* Card image: only round top corners and tighten spacing below */
+
+.cards .cards-card-image picture,
+.cards .cards-card-image img {
+  display: block;
+  width: 100%;
+  height: 144px;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+  background: none;
+  margin-bottom: 0;
+}
+
+/* Card body: tighter top padding for more compact vertical rhythm */
+
+/* Date styling (first p in card body) */
+.cards .cards-card-body p:first-child {
+  color: #7878A3;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin: 0 0 4px;
+  font-family: var(--body-font-family);
+  font-weight: 500;
+}
+
+/* Headline styling */
+.cards .cards-card-body h3 {
+  color: #2B3CF6;
+  font-size: 20px;
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  margin: 0 0 8px;
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+/* Description styling (second p in card body) */
+.cards .cards-card-body p:nth-of-type(2) {
+  color: #7878A3;
+  font-size: 15px;
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  margin: 0 0 8px;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 48px;
+  max-height: 72px;
+  width: 100%;
+}
+
+/* Button: remove for perfect match */
+.cards .cards-card-body .button-container {
+  display: none;
+}
+
+/* Responsive adjustments for mobile/tablet */
+@media (width <= 900px) {
+  .cards.block {
+    padding: 24px 0;
+  }
+
+  .cards > ul {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .cards .cards-card-body {
+    padding: 12px 12px 16px;
+  }
+
+  .cards .cards-card-image picture,
+  .cards .cards-card-image img {
+    height: 110px;
+    border-radius: 12px 12px 0 0;
+  }
 }
