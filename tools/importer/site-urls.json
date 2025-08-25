@@ -1,0 +1,46 @@
+{
+  "originUrl": "https://www.recordedfuture.com",
+  "aborted": false,
+  "urls": [
+    {
+      "url": "https://www.recordedfuture.com/blog/the-retaliation-window",
+      "source": "MANUAL",
+      "targetPath": "/blog/the-retaliation-window",
+      "id": "3652c5891f633a3782712ce0b52ae987252c710b"
+    },
+    {
+      "url": "https://www.recordedfuture.com/blog/toolshell-exploit-chain-thousands-sharepoint-servers-risk",
+      "source": "MANUAL",
+      "targetPath": "/blog/toolshell-exploit-chain-thousands-sharepoint-servers-risk",
+      "id": "f74369e8b5e7026518dbd58a27a18d1f6b9987dc"
+    },
+    {
+      "url": "https://www.recordedfuture.com/case-study/merck-kgaa-darmstadt-germany",
+      "source": "MANUAL",
+      "targetPath": "/case-study/merck-kgaa-darmstadt-germany",
+      "id": "168c17aa5c0bf0a8c5e3b682c4f7947b041cad92"
+    },
+    {
+      "url": "https://www.recordedfuture.com/case-study/novavax",
+      "source": "MANUAL",
+      "targetPath": "/case-study/novavax",
+      "id": "ac8af003b8077b3fd07b28614e011fe18bd066ec"
+    },
+    {
+      "url": "https://www.recordedfuture.com/case-study/tbi-bank",
+      "source": "MANUAL",
+      "targetPath": "/case-study/tbi-bank",
+      "id": "fd3f173934662c995b9b4b19085840ea4855c558"
+    }
+  ],
+  "lastCrawled": null,
+  "crawlOptions": {
+    "limit": 100,
+    "strategy": "manual",
+    "strategiesAttempted": [
+      "MANUAL"
+    ]
+  },
+  "extractionErrors": [],
+  "errorCountMessage": "none"
+}
