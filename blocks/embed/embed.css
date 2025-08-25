@@ -1,13 +1,23 @@
+/* stylelint-disable no-descending-specificity */
 .embed {
-  width: unset;
-  text-align: center;
-  max-width: 800px;
-  margin: 32px auto;
+  width: 100%;
+  text-align: initial;
+  max-width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background: none;
 }
 
 .embed > div {
-  display: flex;
+  display: grid;
   justify-content: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  width: 100%;
+  max-width: 900px;
 }
 
 .embed.embed-twitter .twitter-tweet-rendered {
@@ -164,5 +174,37 @@
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
     margin-left: 1px;
+  }
+}
+
+/* Inner responsive container: ensure full width and maintain aspect ratio */
+
+.embed > div > div {
+  /* This is the 16:9 box for the video */
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  background: #000;
+  box-sizing: border-box;
+}
+
+.embed iframe {
+  /* Ensure the iframe fills the 16:9 parent */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+  background: #000;
+}
+
+@media (width <= 900px) {
+  .embed > div {
+    max-width: 100vw;
   }
 }
