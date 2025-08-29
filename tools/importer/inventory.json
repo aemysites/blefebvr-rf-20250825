@@ -1,0 +1,663 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 2,
+      "instances": [
+        {
+          "url": "https://www.recordedfuture.com/case-study/merck-kgaa-darmstadt-germany",
+          "urlHash": "168c17aa5c0bf0a8c5e3b682c4f7947b041cad92",
+          "uuid": "168c17aa-00-9a910a93cc9f9727e06a6fcf257f590337ccb394",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/merck-kgaa-darmstadt-germany",
+          "urlHash": "168c17aa5c0bf0a8c5e3b682c4f7947b041cad92",
+          "uuid": "168c17aa-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/blog/the-retaliation-window",
+          "urlHash": "3652c5891f633a3782712ce0b52ae987252c710b",
+          "uuid": "3652c589-00-9a910a93cc9f9727e06a6fcf257f590337ccb394",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/blog/the-retaliation-window",
+          "urlHash": "3652c5891f633a3782712ce0b52ae987252c710b",
+          "uuid": "3652c589-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/novavax",
+          "urlHash": "ac8af003b8077b3fd07b28614e011fe18bd066ec",
+          "uuid": "ac8af003-00-9a910a93cc9f9727e06a6fcf257f590337ccb394",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/novavax",
+          "urlHash": "ac8af003b8077b3fd07b28614e011fe18bd066ec",
+          "uuid": "ac8af003-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/blog/toolshell-exploit-chain-thousands-sharepoint-servers-risk",
+          "urlHash": "f74369e8b5e7026518dbd58a27a18d1f6b9987dc",
+          "uuid": "f74369e8-00-9a910a93cc9f9727e06a6fcf257f590337ccb394",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/blog/toolshell-exploit-chain-thousands-sharepoint-servers-risk",
+          "urlHash": "f74369e8b5e7026518dbd58a27a18d1f6b9987dc",
+          "uuid": "f74369e8-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/tbi-bank",
+          "urlHash": "fd3f173934662c995b9b4b19085840ea4855c558",
+          "uuid": "fd3f1739-00-9a910a93cc9f9727e06a6fcf257f590337ccb394",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/tbi-bank",
+          "urlHash": "fd3f173934662c995b9b4b19085840ea4855c558",
+          "uuid": "fd3f1739-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        }
+      ],
+      "styles": {
+        "height": 247
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 4,
+      "instances": [
+        {
+          "url": "https://www.recordedfuture.com/case-study/merck-kgaa-darmstadt-germany",
+          "urlHash": "168c17aa5c0bf0a8c5e3b682c4f7947b041cad92",
+          "uuid": "168c17aa-06-5596712a9a0d6ffed6ca7ff030d405198ba7c1ae",
+          "xpath": "/html[1]/body[1]/main[1]/div[4]/div[2]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/merck-kgaa-darmstadt-germany",
+          "urlHash": "168c17aa5c0bf0a8c5e3b682c4f7947b041cad92",
+          "uuid": "168c17aa-07-a8c51d850e4b4dbaa33ed7a0990d2ec9dfe2e836",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/merck-kgaa-darmstadt-germany",
+          "urlHash": "168c17aa5c0bf0a8c5e3b682c4f7947b041cad92",
+          "uuid": "168c17aa-08-def7d361ac99a1e72392c32ac6538e18a7ea6f75",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/merck-kgaa-darmstadt-germany",
+          "urlHash": "168c17aa5c0bf0a8c5e3b682c4f7947b041cad92",
+          "uuid": "168c17aa-09-a0a142ae93e0a190a3004de7db4beecfe7a9ff6a",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/blog/the-retaliation-window",
+          "urlHash": "3652c5891f633a3782712ce0b52ae987252c710b",
+          "uuid": "3652c589-05-5596712a9a0d6ffed6ca7ff030d405198ba7c1ae",
+          "xpath": "/html[1]/body[1]/main[1]/div[4]/div[2]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/blog/the-retaliation-window",
+          "urlHash": "3652c5891f633a3782712ce0b52ae987252c710b",
+          "uuid": "3652c589-06-a8c51d850e4b4dbaa33ed7a0990d2ec9dfe2e836",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/blog/the-retaliation-window",
+          "urlHash": "3652c5891f633a3782712ce0b52ae987252c710b",
+          "uuid": "3652c589-07-def7d361ac99a1e72392c32ac6538e18a7ea6f75",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/blog/the-retaliation-window",
+          "urlHash": "3652c5891f633a3782712ce0b52ae987252c710b",
+          "uuid": "3652c589-08-a0a142ae93e0a190a3004de7db4beecfe7a9ff6a",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/novavax",
+          "urlHash": "ac8af003b8077b3fd07b28614e011fe18bd066ec",
+          "uuid": "ac8af003-06-5596712a9a0d6ffed6ca7ff030d405198ba7c1ae",
+          "xpath": "/html[1]/body[1]/main[1]/div[4]/div[2]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/novavax",
+          "urlHash": "ac8af003b8077b3fd07b28614e011fe18bd066ec",
+          "uuid": "ac8af003-07-a8c51d850e4b4dbaa33ed7a0990d2ec9dfe2e836",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/novavax",
+          "urlHash": "ac8af003b8077b3fd07b28614e011fe18bd066ec",
+          "uuid": "ac8af003-08-def7d361ac99a1e72392c32ac6538e18a7ea6f75",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/novavax",
+          "urlHash": "ac8af003b8077b3fd07b28614e011fe18bd066ec",
+          "uuid": "ac8af003-09-a0a142ae93e0a190a3004de7db4beecfe7a9ff6a",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/blog/toolshell-exploit-chain-thousands-sharepoint-servers-risk",
+          "urlHash": "f74369e8b5e7026518dbd58a27a18d1f6b9987dc",
+          "uuid": "f74369e8-05-5596712a9a0d6ffed6ca7ff030d405198ba7c1ae",
+          "xpath": "/html[1]/body[1]/main[1]/div[4]/div[2]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/blog/toolshell-exploit-chain-thousands-sharepoint-servers-risk",
+          "urlHash": "f74369e8b5e7026518dbd58a27a18d1f6b9987dc",
+          "uuid": "f74369e8-06-a8c51d850e4b4dbaa33ed7a0990d2ec9dfe2e836",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/blog/toolshell-exploit-chain-thousands-sharepoint-servers-risk",
+          "urlHash": "f74369e8b5e7026518dbd58a27a18d1f6b9987dc",
+          "uuid": "f74369e8-07-def7d361ac99a1e72392c32ac6538e18a7ea6f75",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/blog/toolshell-exploit-chain-thousands-sharepoint-servers-risk",
+          "urlHash": "f74369e8b5e7026518dbd58a27a18d1f6b9987dc",
+          "uuid": "f74369e8-08-a0a142ae93e0a190a3004de7db4beecfe7a9ff6a",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/tbi-bank",
+          "urlHash": "fd3f173934662c995b9b4b19085840ea4855c558",
+          "uuid": "fd3f1739-06-5596712a9a0d6ffed6ca7ff030d405198ba7c1ae",
+          "xpath": "/html[1]/body[1]/main[1]/div[4]/div[2]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/tbi-bank",
+          "urlHash": "fd3f173934662c995b9b4b19085840ea4855c558",
+          "uuid": "fd3f1739-07-a8c51d850e4b4dbaa33ed7a0990d2ec9dfe2e836",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/tbi-bank",
+          "urlHash": "fd3f173934662c995b9b4b19085840ea4855c558",
+          "uuid": "fd3f1739-08-def7d361ac99a1e72392c32ac6538e18a7ea6f75",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/tbi-bank",
+          "urlHash": "fd3f173934662c995b9b4b19085840ea4855c558",
+          "uuid": "fd3f1739-09-a0a142ae93e0a190a3004de7db4beecfe7a9ff6a",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[3]"
+        }
+      ],
+      "styles": {}
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Columns",
+      "cluster": 1,
+      "source": "Columns",
+      "target": "Columns (columns1)",
+      "key": "columns1",
+      "instances": [
+        {
+          "url": "https://www.recordedfuture.com/case-study/merck-kgaa-darmstadt-germany",
+          "urlHash": "168c17aa5c0bf0a8c5e3b682c4f7947b041cad92",
+          "uuid": "168c17aa-07-a8c51d850e4b4dbaa33ed7a0990d2ec9dfe2e836",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.recordedfuture.com/blog/the-retaliation-window",
+          "urlHash": "3652c5891f633a3782712ce0b52ae987252c710b",
+          "uuid": "3652c589-06-a8c51d850e4b4dbaa33ed7a0990d2ec9dfe2e836",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.recordedfuture.com/blog/toolshell-exploit-chain-thousands-sharepoint-servers-risk",
+          "urlHash": "f74369e8b5e7026518dbd58a27a18d1f6b9987dc",
+          "uuid": "f74369e8-06-a8c51d850e4b4dbaa33ed7a0990d2ec9dfe2e836",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/tbi-bank",
+          "urlHash": "fd3f173934662c995b9b4b19085840ea4855c558",
+          "uuid": "fd3f1739-07-a8c51d850e4b4dbaa33ed7a0990d2ec9dfe2e836",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 2,
+      "source": "Columns",
+      "target": "Columns (columns2)",
+      "key": "columns2",
+      "instances": [
+        {
+          "url": "https://www.recordedfuture.com/case-study/merck-kgaa-darmstadt-germany",
+          "urlHash": "168c17aa5c0bf0a8c5e3b682c4f7947b041cad92",
+          "uuid": "168c17aa-08-def7d361ac99a1e72392c32ac6538e18a7ea6f75",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/novavax",
+          "urlHash": "ac8af003b8077b3fd07b28614e011fe18bd066ec",
+          "uuid": "ac8af003-08-def7d361ac99a1e72392c32ac6538e18a7ea6f75",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/tbi-bank",
+          "urlHash": "fd3f173934662c995b9b4b19085840ea4855c558",
+          "uuid": "fd3f1739-08-def7d361ac99a1e72392c32ac6538e18a7ea6f75",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 3,
+      "source": "Cards",
+      "target": "Cards (cards3)",
+      "key": "cards3",
+      "instances": [
+        {
+          "url": "https://www.recordedfuture.com/blog/the-retaliation-window",
+          "urlHash": "3652c5891f633a3782712ce0b52ae987252c710b",
+          "uuid": "3652c589-05-5596712a9a0d6ffed6ca7ff030d405198ba7c1ae",
+          "xpath": "/html[1]/body[1]/main[1]/div[4]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/novavax",
+          "urlHash": "ac8af003b8077b3fd07b28614e011fe18bd066ec",
+          "uuid": "ac8af003-06-5596712a9a0d6ffed6ca7ff030d405198ba7c1ae",
+          "xpath": "/html[1]/body[1]/main[1]/div[4]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.recordedfuture.com/blog/toolshell-exploit-chain-thousands-sharepoint-servers-risk",
+          "urlHash": "f74369e8b5e7026518dbd58a27a18d1f6b9987dc",
+          "uuid": "f74369e8-05-5596712a9a0d6ffed6ca7ff030d405198ba7c1ae",
+          "xpath": "/html[1]/body[1]/main[1]/div[4]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.recordedfuture.com/case-study/tbi-bank",
+          "urlHash": "fd3f173934662c995b9b4b19085840ea4855c558",
+          "uuid": "fd3f1739-06-5596712a9a0d6ffed6ca7ff030d405198ba7c1ae",
+          "xpath": "/html[1]/body[1]/main[1]/div[4]/div[2]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Video",
+      "cluster": 4,
+      "source": "Video",
+      "target": "Video (video4)",
+      "key": "video4",
+      "instances": [
+        {
+          "url": "https://www.recordedfuture.com/case-study/tbi-bank",
+          "urlHash": "fd3f173934662c995b9b4b19085840ea4855c558",
+          "uuid": "fd3f1739-03-9f88d91b18294a35656032f821ce9b162fd35797",
+          "xpath": "/html[1]/body[1]/main[1]/div[2]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 5,
+      "instances": [
+        {
+          "url": "https://www.recordedfuture.com/case-study/tbi-bank",
+          "urlHash": "fd3f173934662c995b9b4b19085840ea4855c558",
+          "uuid": "fd3f1739-04-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 6,
+      "instances": [
+        {
+          "url": "https://www.recordedfuture.com/case-study/novavax",
+          "urlHash": "ac8af003b8077b3fd07b28614e011fe18bd066ec",
+          "uuid": "ac8af003-04-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 7,
+      "source": "Columns",
+      "target": "Columns (columns7)",
+      "key": "columns7",
+      "instances": [
+        {
+          "url": "https://www.recordedfuture.com/case-study/novavax",
+          "urlHash": "ac8af003b8077b3fd07b28614e011fe18bd066ec",
+          "uuid": "ac8af003-07-a8c51d850e4b4dbaa33ed7a0990d2ec9dfe2e836",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 8,
+      "source": "Columns",
+      "target": "Columns (columns8)",
+      "key": "columns8",
+      "instances": [
+        {
+          "url": "https://www.recordedfuture.com/blog/toolshell-exploit-chain-thousands-sharepoint-servers-risk",
+          "urlHash": "f74369e8b5e7026518dbd58a27a18d1f6b9987dc",
+          "uuid": "f74369e8-07-def7d361ac99a1e72392c32ac6538e18a7ea6f75",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 9,
+      "instances": [
+        {
+          "url": "https://www.recordedfuture.com/blog/the-retaliation-window",
+          "urlHash": "3652c5891f633a3782712ce0b52ae987252c710b",
+          "uuid": "3652c589-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 10,
+      "instances": [
+        {
+          "url": "https://www.recordedfuture.com/case-study/merck-kgaa-darmstadt-germany",
+          "urlHash": "168c17aa5c0bf0a8c5e3b682c4f7947b041cad92",
+          "uuid": "168c17aa-04-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Video",
+      "cluster": 11,
+      "source": "Video",
+      "target": "Video (video11)",
+      "key": "video11",
+      "instances": [
+        {
+          "url": "https://www.recordedfuture.com/case-study/novavax",
+          "urlHash": "ac8af003b8077b3fd07b28614e011fe18bd066ec",
+          "uuid": "ac8af003-03-9f88d91b18294a35656032f821ce9b162fd35797",
+          "xpath": "/html[1]/body[1]/main[1]/div[2]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Embed (video)",
+      "cluster": 12,
+      "source": "Embed",
+      "target": "Embed (embedVideo12)",
+      "key": "embedVideo12",
+      "instances": [
+        {
+          "url": "https://www.recordedfuture.com/case-study/merck-kgaa-darmstadt-germany",
+          "urlHash": "168c17aa5c0bf0a8c5e3b682c4f7947b041cad92",
+          "uuid": "168c17aa-03-9f88d91b18294a35656032f821ce9b162fd35797",
+          "xpath": "/html[1]/body[1]/main[1]/div[2]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 13,
+      "source": "Columns",
+      "target": "Columns (columns13)",
+      "key": "columns13",
+      "instances": [
+        {
+          "url": "https://www.recordedfuture.com/blog/the-retaliation-window",
+          "urlHash": "3652c5891f633a3782712ce0b52ae987252c710b",
+          "uuid": "3652c589-07-def7d361ac99a1e72392c32ac6538e18a7ea6f75",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 14,
+      "source": "Hero",
+      "target": "Hero (hero14)",
+      "key": "hero14",
+      "instances": [
+        {
+          "url": "https://www.recordedfuture.com/blog/the-retaliation-window",
+          "urlHash": "3652c5891f633a3782712ce0b52ae987252c710b",
+          "uuid": "3652c589-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+          "xpath": "/html[1]/body[1]/main[1]/div[2]"
+        },
+        {
+          "url": "https://www.recordedfuture.com/blog/toolshell-exploit-chain-thousands-sharepoint-servers-risk",
+          "urlHash": "f74369e8b5e7026518dbd58a27a18d1f6b9987dc",
+          "uuid": "f74369e8-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+          "xpath": "/html[1]/body[1]/main[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 15,
+      "source": "Cards",
+      "target": "Cards (cards15)",
+      "key": "cards15",
+      "instances": [
+        {
+          "url": "https://www.recordedfuture.com/case-study/merck-kgaa-darmstadt-germany",
+          "urlHash": "168c17aa5c0bf0a8c5e3b682c4f7947b041cad92",
+          "uuid": "168c17aa-06-5596712a9a0d6ffed6ca7ff030d405198ba7c1ae",
+          "xpath": "/html[1]/body[1]/main[1]/div[4]/div[2]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Table (striped & bordered)",
+      "cluster": 16,
+      "source": "Table (striped, bordered)",
+      "target": "Table (striped, bordered, tableStripedBordered16)",
+      "key": "tableStripedBordered16",
+      "instances": [
+        {
+          "url": "https://www.recordedfuture.com/blog/toolshell-exploit-chain-thousands-sharepoint-servers-risk",
+          "urlHash": "f74369e8b5e7026518dbd58a27a18d1f6b9987dc",
+          "uuid": "f74369e8-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.recordedfuture.com/case-study/merck-kgaa-darmstadt-germany",
+      "urlHash": "168c17aa5c0bf0a8c5e3b682c4f7947b041cad92",
+      "uuid": "168c17aa-00-9a910a93cc9f9727e06a6fcf257f590337ccb394",
+      "xpath": "/html[1]/body[1]/header[1]/div[1]/div[1]/div[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://www.recordedfuture.com/case-study/merck-kgaa-darmstadt-germany",
+      "urlHash": "168c17aa5c0bf0a8c5e3b682c4f7947b041cad92",
+      "uuid": "168c17aa-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]"
+    },
+    {
+      "url": "https://www.recordedfuture.com/case-study/merck-kgaa-darmstadt-germany",
+      "urlHash": "168c17aa5c0bf0a8c5e3b682c4f7947b041cad92",
+      "uuid": "168c17aa-02-9a3b427bbc870fd3cb61ecf2e1cbe7927b2035d2",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.recordedfuture.com/case-study/merck-kgaa-darmstadt-germany",
+      "urlHash": "168c17aa5c0bf0a8c5e3b682c4f7947b041cad92",
+      "uuid": "168c17aa-05-96338249eb84b70b8d6017d6828669b10745ff88",
+      "xpath": "/html[1]/body[1]/main[1]/div[4]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.recordedfuture.com/case-study/merck-kgaa-darmstadt-germany",
+      "urlHash": "168c17aa5c0bf0a8c5e3b682c4f7947b041cad92",
+      "uuid": "168c17aa-09-a0a142ae93e0a190a3004de7db4beecfe7a9ff6a",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.recordedfuture.com/blog/the-retaliation-window",
+      "urlHash": "3652c5891f633a3782712ce0b52ae987252c710b",
+      "uuid": "3652c589-00-9a910a93cc9f9727e06a6fcf257f590337ccb394",
+      "xpath": "/html[1]/body[1]/header[1]/div[1]/div[1]/div[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://www.recordedfuture.com/blog/the-retaliation-window",
+      "urlHash": "3652c5891f633a3782712ce0b52ae987252c710b",
+      "uuid": "3652c589-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]"
+    },
+    {
+      "url": "https://www.recordedfuture.com/blog/the-retaliation-window",
+      "urlHash": "3652c5891f633a3782712ce0b52ae987252c710b",
+      "uuid": "3652c589-04-96338249eb84b70b8d6017d6828669b10745ff88",
+      "xpath": "/html[1]/body[1]/main[1]/div[4]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.recordedfuture.com/blog/the-retaliation-window",
+      "urlHash": "3652c5891f633a3782712ce0b52ae987252c710b",
+      "uuid": "3652c589-08-a0a142ae93e0a190a3004de7db4beecfe7a9ff6a",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.recordedfuture.com/case-study/novavax",
+      "urlHash": "ac8af003b8077b3fd07b28614e011fe18bd066ec",
+      "uuid": "ac8af003-00-9a910a93cc9f9727e06a6fcf257f590337ccb394",
+      "xpath": "/html[1]/body[1]/header[1]/div[1]/div[1]/div[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://www.recordedfuture.com/case-study/novavax",
+      "urlHash": "ac8af003b8077b3fd07b28614e011fe18bd066ec",
+      "uuid": "ac8af003-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]"
+    },
+    {
+      "url": "https://www.recordedfuture.com/case-study/novavax",
+      "urlHash": "ac8af003b8077b3fd07b28614e011fe18bd066ec",
+      "uuid": "ac8af003-02-9a3b427bbc870fd3cb61ecf2e1cbe7927b2035d2",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.recordedfuture.com/case-study/novavax",
+      "urlHash": "ac8af003b8077b3fd07b28614e011fe18bd066ec",
+      "uuid": "ac8af003-05-96338249eb84b70b8d6017d6828669b10745ff88",
+      "xpath": "/html[1]/body[1]/main[1]/div[4]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.recordedfuture.com/case-study/novavax",
+      "urlHash": "ac8af003b8077b3fd07b28614e011fe18bd066ec",
+      "uuid": "ac8af003-09-a0a142ae93e0a190a3004de7db4beecfe7a9ff6a",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.recordedfuture.com/blog/toolshell-exploit-chain-thousands-sharepoint-servers-risk",
+      "urlHash": "f74369e8b5e7026518dbd58a27a18d1f6b9987dc",
+      "uuid": "f74369e8-00-9a910a93cc9f9727e06a6fcf257f590337ccb394",
+      "xpath": "/html[1]/body[1]/header[1]/div[1]/div[1]/div[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://www.recordedfuture.com/blog/toolshell-exploit-chain-thousands-sharepoint-servers-risk",
+      "urlHash": "f74369e8b5e7026518dbd58a27a18d1f6b9987dc",
+      "uuid": "f74369e8-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]"
+    },
+    {
+      "url": "https://www.recordedfuture.com/blog/toolshell-exploit-chain-thousands-sharepoint-servers-risk",
+      "urlHash": "f74369e8b5e7026518dbd58a27a18d1f6b9987dc",
+      "uuid": "f74369e8-04-96338249eb84b70b8d6017d6828669b10745ff88",
+      "xpath": "/html[1]/body[1]/main[1]/div[4]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.recordedfuture.com/blog/toolshell-exploit-chain-thousands-sharepoint-servers-risk",
+      "urlHash": "f74369e8b5e7026518dbd58a27a18d1f6b9987dc",
+      "uuid": "f74369e8-08-a0a142ae93e0a190a3004de7db4beecfe7a9ff6a",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.recordedfuture.com/case-study/tbi-bank",
+      "urlHash": "fd3f173934662c995b9b4b19085840ea4855c558",
+      "uuid": "fd3f1739-00-9a910a93cc9f9727e06a6fcf257f590337ccb394",
+      "xpath": "/html[1]/body[1]/header[1]/div[1]/div[1]/div[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://www.recordedfuture.com/case-study/tbi-bank",
+      "urlHash": "fd3f173934662c995b9b4b19085840ea4855c558",
+      "uuid": "fd3f1739-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]"
+    },
+    {
+      "url": "https://www.recordedfuture.com/case-study/tbi-bank",
+      "urlHash": "fd3f173934662c995b9b4b19085840ea4855c558",
+      "uuid": "fd3f1739-02-9a3b427bbc870fd3cb61ecf2e1cbe7927b2035d2",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.recordedfuture.com/case-study/tbi-bank",
+      "urlHash": "fd3f173934662c995b9b4b19085840ea4855c558",
+      "uuid": "fd3f1739-05-96338249eb84b70b8d6017d6828669b10745ff88",
+      "xpath": "/html[1]/body[1]/main[1]/div[4]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.recordedfuture.com/case-study/tbi-bank",
+      "urlHash": "fd3f173934662c995b9b4b19085840ea4855c558",
+      "uuid": "fd3f1739-09-a0a142ae93e0a190a3004de7db4beecfe7a9ff6a",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[3]"
+    }
+  ],
+  "sections": [
+    {
+      "name": "section-1",
+      "background": "rgb(0, 0, 102) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 5
+    },
+    {
+      "name": "section-2",
+      "background": "rgb(244, 244, 244) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 10
+    },
+    {
+      "name": "section-3",
+      "background": "rgb(5, 0, 255) url(\"https://www.recordedfuture.com/graphics/half-circles.svg\") no-repeat scroll 2% 50% / contain padding-box border-box",
+      "count": 5
+    }
+  ]
+}
