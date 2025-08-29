@@ -1,7 +1,7 @@
 {
   "templates": [
     {
-      "name": "'Video Content Hub'",
+      "name": "'Video-centric Directory Page'",
       "cluster": 1,
       "pages": [
         {
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "name": "'Dashboard'",
+      "name": "Dashboard Template",
       "cluster": 2,
       "pages": [
         {
